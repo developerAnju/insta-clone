@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+.logo{
+    width: 100px;
+}
+.icon_list::-webkit-scrollbar{
+    display: none;
+}
+.icon_list{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    gap: 15px;
+}
+.icon_list li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.icon_list li img{
+    height: 56px;
+    width: 56px;
+}
+.sideNav_list li{
+    padding: 20px 0;
+}
+.sideNav_list li a{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+}
+.sideNav_list li a.active,
+.sideNav_list li a:hover{
+    font-weight: 600;
+}
+.insta_icon_profile,
+.like_share{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.dots{
+    display: flex;
+    gap: 3px;
+}
+.dots span{
+    border-radius: 100%;
+    width: 3px;
+    height: 3px;
+    display: flex;
+    background-color: #000;
+    flex-direction: row;
+    gap: 10px;
+}
+.viewall{
+    color: #8E8E8E;
+}
+.form-control,.form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+.iconW{
+    width: 20px;
+}
+/* .insta_middle{
+    place-content: center;
+    place-items: center;
+} */
+.text_switch{
+    color: #0095F6;
+}
+.links a,.links p{
+    color: #8E8E8E;
+    text-decoration: none;
+}
+.insta_left{
+    box-shadow: 0 0.2rem 0.3rem 0 rgba(0, 0, 0, 0.15);
+}
+.closeBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.profile_icon{
+    width: 54px;
+    height: 54px;
+}
+.profile_scroll::-webkit-scrollbar{
+    display: none;
+}
+.profile_scroll{
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    gap: 15px;
+    padding-left: 15px;
+}
+/* slick slider */
+.image_scroll .slick-prev{
+    left: 12px;
+}
+.image_scroll .slick-next{
+    right: 12px;
+}
+.image_scroll .slick-dots{
+    bottom: 5px;
+}
+.image_scroll .slick-dots li button:before{
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.3;
+}
+.image_scroll .slick-dots li.slick-active button:before{
+    color: #fff;
+}
+.image_scroll .slick-dots li{
+    margin: 0;
+}
